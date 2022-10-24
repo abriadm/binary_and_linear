@@ -98,10 +98,19 @@ namespace binary_and_linear
                 for (i = 0; i < n;i++)
                 {
                     ctr++;
-
+                    if (arr[i] == item)
+                    {
+                        Console.WriteLine("\n" + item.ToString() + " found st position" + (i + 1).ToString());
+                        break;
+                    }
                 }
+                if (i == 0)
+                    Console.WriteLine("\n" + item.ToString() + " not found in the array");
+                Console.WriteLine("\nNumber of comparison: " + ctr);
+                Console.Write("\nContinue search (y/n): ");
+                ch = Char.Parse(Console.ReadLine());
 
-            } while ();
+            } while ((ch == 'y') || (ch == 'Y'));
         }
 
         static void Main(string[] args)
