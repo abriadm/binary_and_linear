@@ -146,10 +146,18 @@ namespace binary_and_linear
                         myList.BinarySearch();
                         break;
                     case 3:
+                        Console.WriteLine("Exit.");
+                        break;
+                    default:
+                        Console.WriteLine("Error");
+                        break;
 
                 }
+                //to exit from the console
+                Console.WriteLine("\n\nPress Return to exit.");
+                Console.ReadLine();
 
-            } while ();
+            } while (pilihanmenu != 3);
         }
     }
 }
