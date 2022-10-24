@@ -115,7 +115,13 @@ namespace binary_and_linear
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Program myList = new Program();
+            int pilihanmenu;
+            do
+            {
+                Console.WriteLine("Menu option");
+
+            } while ();
         }
     }
 }
