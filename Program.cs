@@ -120,6 +120,21 @@ namespace binary_and_linear
             do
             {
                 Console.WriteLine("Menu option");
+                Console.WriteLine("===============");
+                Console.WriteLine("1. Linear search");
+                Console.WriteLine("2. Binary search");
+                Console.WriteLine("3. Exit");
+                Console.Write("Enter your choice (1,2,3): ");
+                pilihanmenu = Convert.ToInt32(Console.ReadLine());
+
+                switch(pilihanmenu)
+                {
+                    case 1:
+                        Console.WriteLine("");
+                        Console.WriteLine(".....................");
+                        Console.WriteLine("Linear Search");
+                        Console.WriteLine(".....................");
+                }
 
             } while ();
         }
