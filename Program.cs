@@ -61,7 +61,7 @@ namespace binary_and_linear
                 int ctr = 1;
 
                 //loop to search for the elements in the array
-                while ((item != arr[mid] && (lowerbound <= upperbound))
+                while ((item != arr[mid]) && (lowerbound <= upperbound))
                 {
                     if (item > arr[mid])
                         lowerbound = mid + 1;
